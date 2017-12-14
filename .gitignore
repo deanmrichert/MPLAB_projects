@@ -1,0 +1,13 @@
+audio/
+bluetooth/
+bootloader/
+classb/
+crypto/
+driver/
+examples/
+fs/
+gfx/
+motor_control/
+rtos/
+tcpip/
+usb/
