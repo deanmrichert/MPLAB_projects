@@ -1,0 +1,10 @@
+To copy a Harmony project:
+
+1. In Windows Explorer, go to "C:\microchip\harmony\v2_04\apps" and copy-paste the project folder. Make sure you paste it into the same "C:\microchip\harmony\v2_04\apps". Rename the copied folder to a name of your choice.
+2. Launch MPLAB and File -> Open Project the new project. You will have to select the project's "*.X" folder which should be located in "C:\microchip\harmony\v2_04\apps\your_new_project_folder\firmware". Note that the "*.X" folder will still have the same name as the old project.
+3. In the Projects tab right-click on the new project and select Rename. Be sure that you select the correct project since it will still have the same name as the old project.
+4. Choose a new name for the project and also select the checkbox to "Also Rename Project Folder".
+5. In Windows Explorer delete the "*.hconfig" file that has the old project name.
+6. Back in MPLAB, open Harmony and re-generate the configuration code.
+7. Right-click on the new project and "Set as Main Project".
+8. Do a Clean and Build to make sure the copy worked correctly.
